@@ -1,0 +1,11 @@
+department,admitted,treated,discharged,readmitted,treatment_rate,discharge_rate,readmission_rate
+Nephrology,4985,4155,4985,1183,83.4,100.0,23.7
+Cardiology,9992,8319,9992,2312,83.3,100.0,23.1
+Psychiatry,2585,2158,2585,597,83.5,100.0,23.1
+Emergency,2485,2064,2485,572,83.1,100.0,23.0
+Pulmonology,7690,6425,7690,1765,83.6,100.0,23.0
+Oncology,4969,4120,4969,1122,82.9,100.0,22.6
+General Medicine,9872,8198,9872,2197,83.0,100.0,22.3
+Neurology,2461,2038,2461,547,82.8,100.0,22.2
+Gastroenterology,2521,2081,2521,555,82.5,100.0,22.0
+Orthopedics,2440,2041,2440,515,83.6,100.0,21.1

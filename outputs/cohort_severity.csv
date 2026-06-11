@@ -1,0 +1,4 @@
+severity_band,patient_count,avg_los,avg_billing,readmission_rate,avg_satisfaction,avg_severity,readmission_pct
+Low,17822,5.48,10906.55,0.17,3.67,1.94,17.0
+Medium,26417,9.94,20545.51,0.24,3.56,4.4,24.0
+High,5761,14.49,30651.44,0.33,3.42,6.97,33.0

@@ -1,0 +1,6 @@
+insurance_type,admitted,treated,discharged,readmitted,treatment_rate,discharge_rate,readmission_rate,avg_billing
+Uninsured,4986,4200,4986,1146,84.2,100.0,23.0,9925.0
+Medicaid,9991,8388,9991,2287,84.0,100.0,22.9,12325.0
+Medicare,12466,10321,12466,2845,82.8,100.0,22.8,16618.0
+Private,17541,14607,17541,3964,83.3,100.0,22.6,23351.0
+Corporate,5016,4083,5016,1123,81.4,100.0,22.4,24787.0

@@ -1,0 +1,19 @@
+test_id,test_name,test_type,variable_1,variable_2,statistic,p_value,extra_info,interpretation
+1,LOS: Readmitted vs Not Readmitted,Independent t-test,length_of_stay,readmitted_30days,23.4604,0.0,Cohen's d=0.2467  |  mean_readmitted=9.71d  mean_not=8.63d,Highly significant (p<0.001)
+2,Billing: Readmitted vs Not Readmitted,Independent t-test,billing_amount,readmitted_30days,21.2952,0.0,"Cohen's d=0.2225  |  mean_readmitted=$20,094  mean_not=$17,739",Highly significant (p<0.001)
+3,Severity Score: Male vs Female,Independent t-test,severity_score,gender,-1.0547,0.291549,Cohen's d=-0.0095  |  mean_male=3.81  mean_female=3.83,Not significant (p≥0.05)
+4,Billing across Insurance Types,One-Way ANOVA,billing_amount,insurance_type,4357.5718,0.0,"Group means: {'Corporate': 24787.0, 'Medicaid': 12325.0, 'Medicare': 16618.0, 'Private': 23351.0, 'Uninsured': 9925.0}",Highly significant (p<0.001)
+5,LOS across Departments,One-Way ANOVA,length_of_stay,department,0.5698,0.823024,"Group means: {'Cardiology': 8.88, 'Emergency': 8.96, 'Gastroenterology': 8.92, 'General Medicine': 8.88} …",Not significant (p≥0.05)
+6,Severity Score across Age Groups,One-Way ANOVA,severity_score,age_group,5548.2922,0.0,"Group means: {'18-30': 2.13, '31-45': 2.86, '46-60': 3.7, '61-75': 4.56, '76+': 5.59}",Highly significant (p<0.001)
+7,Readmission vs Gender,Chi-Square,gender,readmitted_30days,1.6671,0.434497,"dof=2  |  contingency table shape=(3, 2)",Not significant (p≥0.05)
+8,Readmission vs Smoking Status,Chi-Square,smoking_status,readmitted_30days,38.7502,0.0,"dof=2  |  contingency table shape=(3, 2)",Highly significant (p<0.001)
+9,Readmission vs Severity Band,Chi-Square,severity_band,readmitted_30days,715.0231,0.0,"dof=2  |  contingency table shape=(3, 2)",Highly significant (p<0.001)
+10,Age vs Severity Score,Pearson Correlation,age,severity_score,0.573,0.0,r=0.5730  →  Strong positive correlation,Highly significant (p<0.001)
+11,LOS vs Billing Amount,Pearson Correlation,length_of_stay,billing_amount,0.8147,0.0,r=0.8147  →  Strong positive correlation,Highly significant (p<0.001)
+12,Num Procedures vs Billing,Pearson Correlation,num_procedures,billing_amount,0.3963,0.0,r=0.3963  →  Moderate positive correlation,Highly significant (p<0.001)
+13,Severity vs Readmission,Spearman Rho,severity_score,readmitted_int,0.1349,0.0,ρ=0.1349  →  Weak positive monotonic relationship,Highly significant (p<0.001)
+14,LOS vs Satisfaction Score,Spearman Rho,length_of_stay,satisfaction_score,-0.0695,0.0,ρ=-0.0695  →  Weak negative monotonic relationship,Highly significant (p<0.001)
+15,Age vs LOS,Spearman Rho,age,length_of_stay,0.4159,0.0,ρ=0.4159  →  Moderate positive monotonic relationship,Highly significant (p<0.001)
+16,95% CI — Mean LOS,Confidence Interval,length_of_stay,,8.8728,,"95% CI [8.8344, 8.9111]",True mean LOS lies between 8.8344 and 8.9111 days
+17,95% CI — Mean Billing,Confidence Interval,billing_amount,,18274.2043,,"95% CI [$18,183, $18,365]","True mean billing lies between $18,183 and $18,365"
+18,95% CI — Readmission Rate,Confidence Interval,readmitted_30days,,0.2273,,"95% CI [22.36%, 23.10%]",True readmission rate lies between 22.4% and 23.1%

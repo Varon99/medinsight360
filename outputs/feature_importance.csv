@@ -1,0 +1,77 @@
+feature,importance
+severity_score,0.09114459657964195
+age,0.08431441967298821
+billing_amount,0.08163808331257119
+lab_result_score,0.06366173730540554
+bmi,0.06348666313686856
+systolic_bp,0.058599817823479235
+satisfaction_score,0.05059126408279611
+length_of_stay,0.049846215299244115
+diastolic_bp,0.04765399643867451
+admission_month,0.03310499971136303
+num_medications,0.030618842348921455
+num_procedures,0.02200897794118749
+severity_band_Low,0.02080117135534314
+admission_quarter,0.01654382349204254
+severity_band_High,0.015855218195104773
+age_group_76+,0.01108268913715864
+severity_band_Medium,0.010186823305230516
+age_group_31-45,0.009412634358323787
+smoking_status_Never,0.00896406825823547
+gender_Male,0.008830577697463649
+gender_Female,0.00872946279827681
+age_group_61-75,0.00822001630809906
+age_group_18-30,0.007790723786403558
+insurance_type_Private,0.0077521896050472645
+age_group_46-60,0.006849678918705174
+insurance_type_Medicare,0.006639858312910797
+smoking_status_Former,0.0066249543954937555
+comorbidities_Diabetes,0.006220233813962225
+insurance_type_Medicaid,0.006066990177246301
+smoking_status_Current,0.0059202705569957655
+comorbidities_Hypertension,0.00586108839648721
+treatment_type_Physiotherapy,0.005609881824080168
+treatment_type_Palliative,0.005599180489682443
+treatment_type_Observation,0.005569754757615723
+treatment_type_Medical Management,0.0055525071248931565
+treatment_type_Surgical,0.005519398311583523
+treatment_type_Chemotherapy,0.0053340690552642666
+department_General Medicine,0.005318081839792256
+department_Cardiology,0.005269085793429031
+department_Pulmonology,0.0049304923032819714
+insurance_type_Corporate,0.004769705572025973
+comorbidities_Heart Disease,0.004709555811471413
+comorbidities_Obesity,0.004420131449911674
+comorbidities_Chronic Kidney Disease,0.003908057779299491
+department_Oncology,0.003882251044814487
+comorbidities_COPD,0.00384651030935982
+insurance_type_Uninsured,0.003827596669975905
+comorbidities_Obesity + Diabetes,0.0037239505014590494
+department_Nephrology,0.003341787084880345
+comorbidities_Diabetes + Hypertension,0.003189950784883573
+diagnosis_Hypertension,0.002847241607480154
+diagnosis_Type 2 Diabetes,0.0027243855367227337
+diagnosis_Stroke,0.0026098319065493594
+diagnosis_Cancer - Lung,0.002571594634271908
+department_Neurology,0.0024695053954663
+diagnosis_Heart Failure,0.0024227330758298223
+diagnosis_Obesity,0.0024098629230174104
+diagnosis_Asthma,0.002403395921308091
+diagnosis_Kidney Disease,0.0023741803445830973
+department_Orthopedics,0.0023644680645025585
+diagnosis_Anemia,0.0022841548154634277
+diagnosis_Cancer - Breast,0.0022640962570380165
+diagnosis_UTI,0.0022382587164855496
+diagnosis_Acute MI,0.0021964384504881587
+diagnosis_Arrhythmia,0.00217172980343034
+diagnosis_Appendicitis,0.002118590983416534
+diagnosis_COPD,0.002067197230742792
+department_Emergency,0.0020654631495132508
+diagnosis_Sepsis,0.0020420853702130884
+diagnosis_Fracture,0.0020199996324879116
+diagnosis_Pneumonia,0.0020069260484104168
+department_Psychiatry,0.00198968502150173
+diagnosis_Gastroenteritis,0.0017586085887425409
+department_Gastroenterology,0.001749715819967488
+diagnosis_Depression,0.001685367060534991
+gender_Other,0.0008004486124563709

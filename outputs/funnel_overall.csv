@@ -1,0 +1,7 @@
+stage,patient_count,pct_of_total,pct_of_prev,drop_off
+Admitted,50000,100.0,100.0,0
+Assessed,50000,100.0,100.0,0
+Diagnosed,50000,100.0,100.0,0
+Treated,41599,83.2,83.2,8401
+Discharged,50000,100.0,120.2,-8401
+Readmitted,11365,22.7,22.7,38635

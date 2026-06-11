@@ -1,0 +1,67 @@
+variable_1,variable_2,spearman_rho,p_value,significant
+Length of Stay,Billing Amount,0.8193,0.0,True
+Severity Score,Length of Stay,0.734,0.0,True
+Severity Score,Billing Amount,0.681,0.0,True
+Age,Systolic BP,0.5764,0.0,True
+Age,Severity Score,0.5638,0.0,True
+Severity Score,Num Procedures,0.4717,0.0,True
+Severity Score,Num Medications,0.4599,0.0,True
+Age,Length of Stay,0.4159,0.0,True
+Billing Amount,Num Procedures,0.3996,0.0,True
+Age,Billing Amount,0.3901,0.0,True
+Age,Diastolic BP,0.3877,0.0,True
+Length of Stay,Num Procedures,0.3456,0.0,True
+Length of Stay,Num Medications,0.3417,0.0,True
+Billing Amount,Num Medications,0.3345,0.0,True
+Severity Score,Systolic BP,0.3303,0.0,True
+Age,Num Procedures,0.2664,0.0,True
+Age,Num Medications,0.2634,0.0,True
+Length of Stay,Systolic BP,0.2406,0.0,True
+Systolic BP,Diastolic BP,0.2285,0.0,True
+Billing Amount,Systolic BP,0.2247,0.0,True
+Severity Score,Diastolic BP,0.2233,0.0,True
+Num Procedures,Num Medications,0.221,0.0,True
+Length of Stay,Diastolic BP,0.1683,0.0,True
+Billing Amount,Diastolic BP,0.1603,0.0,True
+Num Procedures,Systolic BP,0.1563,0.0,True
+Num Medications,Systolic BP,0.1521,0.0,True
+Severity Score,Readmitted (0/1),0.1349,0.0,True
+Age,Readmitted (0/1),0.1227,0.0,True
+Num Procedures,Diastolic BP,0.1068,0.0,True
+Num Medications,Diastolic BP,0.1067,0.0,True
+Length of Stay,Readmitted (0/1),0.1021,0.0,True
+Severity Score,Satisfaction,-0.0952,0.0,True
+Billing Amount,Readmitted (0/1),0.0931,0.0,True
+Length of Stay,Satisfaction,-0.0695,0.0,True
+Systolic BP,Readmitted (0/1),0.0686,0.0,True
+Billing Amount,Satisfaction,-0.0634,0.0,True
+Num Procedures,Readmitted (0/1),0.0628,0.0,True
+Num Medications,Readmitted (0/1),0.0579,0.0,True
+Age,Satisfaction,-0.0558,0.0,True
+Diastolic BP,Readmitted (0/1),0.0478,0.0,True
+Num Procedures,Satisfaction,-0.0462,0.0,True
+Num Medications,Satisfaction,-0.0374,0.0,True
+Systolic BP,Satisfaction,-0.0323,0.0,True
+Diastolic BP,Satisfaction,-0.0231,0.0,True
+Satisfaction,Readmitted (0/1),-0.0112,0.011965,True
+Systolic BP,Lab Score,-0.0099,0.027188,True
+Age,Lab Score,-0.0094,0.034998,True
+Billing Amount,Lab Score,-0.0055,0.214689,False
+Billing Amount,BMI,0.0046,0.308934,False
+Num Medications,BMI,0.0044,0.320375,False
+BMI,Readmitted (0/1),-0.004,0.374528,False
+BMI,Satisfaction,-0.0039,0.377337,False
+BMI,Lab Score,-0.0037,0.409668,False
+Diastolic BP,Lab Score,-0.0032,0.479719,False
+Severity Score,Lab Score,-0.0032,0.470713,False
+Length of Stay,Lab Score,-0.0027,0.553009,False
+Severity Score,BMI,0.0027,0.550622,False
+Length of Stay,BMI,0.0023,0.613509,False
+Lab Score,Readmitted (0/1),0.0023,0.610796,False
+Lab Score,Satisfaction,0.0022,0.619458,False
+Num Procedures,Lab Score,-0.0017,0.699107,False
+BMI,Systolic BP,-0.0014,0.76023,False
+Age,BMI,0.0012,0.79387,False
+Num Medications,Lab Score,-0.001,0.817464,False
+BMI,Diastolic BP,-0.0005,0.903096,False
+Num Procedures,BMI,0.0001,0.974441,False

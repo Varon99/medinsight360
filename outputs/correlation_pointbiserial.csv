@@ -1,0 +1,12 @@
+variable,r_pb,p_value,strength,direction,significant
+Severity Score,0.1377,0.0,Moderate,positive,True
+Age,0.1229,0.0,Moderate,positive,True
+Length of Stay,0.1043,0.0,Moderate,positive,True
+Billing Amount,0.0948,0.0,Weak,positive,True
+Systolic BP,0.0709,0.0,Weak,positive,True
+Num Procedures,0.0626,0.0,Weak,positive,True
+Num Medications,0.0607,0.0,Weak,positive,True
+Diastolic BP,0.0483,0.0,Weak,positive,True
+Lab Score,0.0014,0.757874,Weak,positive,False
+BMI,-0.0044,0.320359,Weak,negative,False
+Satisfaction,-0.0126,0.004853,Weak,negative,True
